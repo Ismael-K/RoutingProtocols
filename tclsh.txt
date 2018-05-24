@@ -1,0 +1,29 @@
+foreach VAR {
+192.168.1.1
+192.168.0.6
+192.168.0.25
+192.168.3.3
+192.168.0.10
+192.168.0.22
+192.168.4.4
+192.168.0.9
+192.168.0.14
+192.168.5.5
+192.168.0.18
+192.168.0.13
+192.168.6.6
+192.168.0.17
+192.168.0.26
+} { puts [exec "ping $VAR"] }
+
+
+-------------------------------
+this works if theres a routing protocol running
+
+to run the script:
+
+Atlanta#  tclsh
+
+Atlanta(tcl)#  [paste script here]
+
+delete +>

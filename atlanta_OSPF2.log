@@ -1,0 +1,1133 @@
+
+Authorized Users Only
+Password:
+% Unknown command or computer name, or unable to find computer address
+Atlanta#ping
+*Feb 28 03:24:03.111: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to down
+*Feb 28 03:24:03.111: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.3.3 on FastEthernet
+0/1 from FULL to DOWN, Neighbor Down: Interface down or detached
+Atlanta#ping 192.168.0.30
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.30, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#ping 192.168.0.29
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.29, timeout is 2 seconds:
+...
+*Feb 28 03:24:50.683: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to up..
+Success rate is 0 percent (0/5)
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/5] via 192.168.0.6, 00:00:57, FastEthernet0/0
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/4] via 192.168.0.6, 00:00:57, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/3] via 192.168.0.6, 00:00:57, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 6 subnets
+O       192.168.0.8 [110/5] via 192.168.0.6, 00:00:57, FastEthernet0/0
+O       192.168.0.12 [110/4] via 192.168.0.6, 00:00:58, FastEthernet0/0
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/2] via 192.168.0.6, 00:00:58, FastEthernet0/0
+O       192.168.0.16 [110/3] via 192.168.0.6, 00:00:58, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/2] via 192.168.0.6, 00:01:06, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/6] via 192.168.0.6, 00:01:09, FastEthernet0/0
+Atlanta#
+*Feb 28 03:25:34.963: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.3.3 on FastEthernet
+0/1 from LOADING to FULL, Loading Done
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#ping 192.168.0.29
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.29, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#ping 192.168.0.30
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.30, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:04:15, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/4] via 192.168.0.22, 00:04:15, FastEthernet0/1
+                    [110/4] via 192.168.0.6, 00:05:48, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/3] via 192.168.0.6, 00:05:48, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 6 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:04:16, FastEthernet0/1
+O       192.168.0.12 [110/3] via 192.168.0.22, 00:04:16, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/2] via 192.168.0.6, 00:05:49, FastEthernet0/0
+O       192.168.0.16 [110/3] via 192.168.0.6, 00:05:49, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/2] via 192.168.0.6, 00:05:53, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:04:23, FastEthernet0/1
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:08:21, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/4] via 192.168.0.22, 00:08:21, FastEthernet0/1
+                    [110/4] via 192.168.0.6, 00:09:54, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/3] via 192.168.0.6, 00:09:54, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:08:22, FastEthernet0/1
+O       192.168.0.12 [110/3] via 192.168.0.22, 00:08:22, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/2] via 192.168.0.6, 00:09:55, FastEthernet0/0
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:00:29, FastEthernet0/1
+O       192.168.0.16 [110/3] via 192.168.0.6, 00:09:56, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/2] via 192.168.0.6, 00:10:00, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:08:31, FastEthernet0/1
+Atlanta#ping 192.168.0.30
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.30, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 8/8/12 ms
+Atlanta#ping 192.168.0.29
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.29, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#show ip route summary
+IP routing table name is Default-IP-Routing-Table(0)
+IP routing table maximum-paths is 32
+Route Source    Networks    Subnets     Overhead    Memory (bytes)
+connected       0           3           192         456
+static          0           0           0           0
+ospf 1          0           9           576         1368
+  Intra-area: 9 Inter-area: 0 External-1: 0 External-2: 0
+  NSSA External-1: 0 NSSA External-2: 0
+internal        7                                   8204
+Total           7           12          768         10028
+Removing Queue Size 0
+Atlanta#show ip route summary
+IP routing table name is Default-IP-Routing-Table(0)
+IP routing table maximum-paths is 32
+Route Source    Networks    Subnets     Overhead    Memory (bytes)
+connected       0           3           192         456
+static          0           0           0           0
+ospf 1          0           10          640         1520
+  Intra-area: 10 Inter-area: 0 External-1: 0 External-2: 0
+  NSSA External-1: 0 NSSA External-2: 0
+internal        7                                   8204
+Total           7           13          832         10180
+Removing Queue Size 0
+Atlanta#sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:15:37, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/4] via 192.168.0.6, 00:17:10, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/3] via 192.168.0.6, 00:17:10, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:15:37, FastEthernet0/1
+O       192.168.0.12 [110/3] via 192.168.0.22, 00:04:31, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/2] via 192.168.0.6, 00:17:11, FastEthernet0/0
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:07:45, FastEthernet0/1
+O       192.168.0.16 [110/3] via 192.168.0.6, 00:17:11, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/2] via 192.168.0.6, 00:17:14, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:15:44, FastEthernet0/1
+Atlanta#sh ip route ospf
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:17:29, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/4] via 192.168.0.22, 00:00:08, FastEthernet0/1
+                    [110/4] via 192.168.0.6, 00:19:02, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/3] via 192.168.0.6, 00:19:02, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:17:29, FastEthernet0/1
+O       192.168.0.12 [110/3] via 192.168.0.22, 00:06:22, FastEthernet0/1
+O       192.168.0.24 [110/2] via 192.168.0.6, 00:19:02, FastEthernet0/0
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:09:35, FastEthernet0/1
+O       192.168.0.16 [110/3] via 192.168.0.6, 00:19:02, FastEthernet0/0
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/2] via 192.168.0.6, 00:19:02, FastEthernet0/0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:17:30, FastEthernet0/1
+Atlanta#show ip protocols
+Routing Protocol is "ospf 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Router ID 192.168.2.2
+  Number of areas in this router is 1. 1 normal 0 stub 0 nssa
+  Maximum path: 4
+  Routing for Networks:
+    192.168.0.4 0.0.0.3 area 0
+    192.168.0.20 0.0.0.3 area 0
+    192.168.2.2 0.0.0.0 area 0
+ Reference bandwidth unit is 100 mbps
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    192.168.3.3          110      00:10:40
+    192.168.6.6          110      00:20:06
+    192.168.4.4          110      00:07:26
+    192.168.5.5          110      00:01:13
+    192.168.1.1          110      00:20:06
+  Distance: (default is 110)
+Atlanta#show ip ospf
+ Routing Process "ospf 1" with ID 192.168.2.2
+ Start time: 00:52:09.320, Time elapsed: 01:20:51.236
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Link-local Signaling (LLS)
+ Supports area transit capability
+ Router is not originating router-LSAs with maximum metric
+ Initial SPF schedule delay 5000 msecs
+ Minimum hold time between two consecutive SPFs 10000 msecs
+ Maximum wait time between two consecutive SPFs 10000 msecs
+ Incremental-SPF disabled
+ Minimum LSA interval 5 secs
+ Minimum LSA arrival 1000 msecs
+ LSA group pacing timer 240 secs
+ Interface flood pacing timer 33 msecs
+ Retransmission pacing timer 66 msecs
+ Number of external LSA 0. Checksum Sum 0x000000
+ Number of opaque AS LSA 0. Checksum Sum 0x000000
+ Number of DCbitless external and opaque AS LSA 0
+ Number of DoNotAge external and opaque AS LSA 0
+ Number of areas in this router is 1. 1 normal 0 stub 0 nssa
+ Number of areas transit capable is 0
+ External flood list length 0
+ IETF NSF helper support enabled
+ Cisco NSF helper support enabled
+    Area BACKBONE(0)
+        Number of interfaces in this area is 3 (1 loopback)
+        Area has no authentication
+        SPF algorithm last executed 00:01:24.492 ago
+        SPF algorithm executed 20 times
+        Area ranges are
+        Number of LSA 12. Checksum Sum 0x060133
+        Number of opaque link LSA 0. Checksum Sum 0x000000
+        Number of DCbitless LSA 0
+        Number of indication LSA 0
+        Number of DoNotAge LSA 0
+        Flood list length 0
+ 
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip ospf neighbor
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+192.168.3.3       1   FULL/DR         00:00:31    192.168.0.22    FastEthernet0/
+1
+192.168.1.1       1   FULL/DR         00:00:35    192.168.0.6     FastEthernet0/
+0
+Atlanta#show ip ospf database
+            OSPF Router with ID (192.168.2.2) (Process ID 1)
+                Router Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+192.168.1.1     192.168.1.1     364         0x80000007 0x0037AE 3
+192.168.2.2     192.168.2.2     1146        0x80000008 0x005591 3
+192.168.3.3     192.168.3.3     360         0x80000009 0x0052C7 5
+192.168.4.4     192.168.4.4     39          0x80000008 0x00CE14 3
+192.168.5.5     192.168.5.5     109         0x8000000B 0x007850 3
+192.168.6.6     192.168.6.6     238         0x80000006 0x006494 5
+                Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+192.168.0.6     192.168.1.1     849         0x80000003 0x008601
+192.168.0.9     192.168.4.4     39          0x80000003 0x0095E0
+192.168.0.14    192.168.4.4     107         0x80000001 0x009DD1
+192.168.0.18    192.168.5.5     260         0x80000003 0x0092D0
+192.168.0.22    192.168.3.3     1147        0x80000001 0x00F57B
+192.168.0.25    192.168.1.1     364         0x80000003 0x003438
+Atlanta#show interface s0/1/0
+Serial0/1/0 is administratively down, line protocol is down
+  Hardware is GT96K Serial
+  MTU 1500 bytes, BW 128 Kbit/sec, DLY 20000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 02:12:06
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=down  DSR=down  DTR=down  RTS=down  CTS=down
+Atlanta#show interface ospf  s0/1/0
+                       ^
+% Invalid input detected at '^' marker.
+Atlanta#show interface ospf s0/1/0
+                       ^
+% Invalid input detected at '^' marker.
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.6 0 msec 4 msec 0 msec
+  2 192.168.0.26 0 msec *  0 msec
+Atlanta#int f0/0
+         ^
+% Invalid input detected at '^' marker.
+Atlanta#con
+Atlanta#conF T
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#INT F0/0
+Atlanta(config-if)#shut
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+*Feb 28 03:48:40.807: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.1.1 on FastEthernet
+0/0 from FULL to DOWN, Neighbor Down: Interface down or detached
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#d
+*Feb 28 03:48:42.799: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
+to administratively down
+*Feb 28 03:48:43.799: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+Atlanta(config-if)#do trace
+% Ambiguous command:  "do trace "
+Atlanta(config-if)#do tracero
+% Ambiguous command:  "do tracero"
+Atlanta(config-if)#do tracero
+% Ambiguous command:  "do tracero"
+Atlanta(config-if)#do tracero
+% Ambiguous command:  "do tracero"
+Atlanta(config-if)#do traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.22 0 msec 0 msec 4 msec
+  2 192.168.0.9 0 msec 0 msec 0 msec
+  3 192.168.0.13 0 msec 4 msec 0 msec
+  4 192.168.0.17 0 msec *  0 msec
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+*Feb 28 03:49:41.159: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
+o up
+*Feb 28 03:49:42.159: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+Atlanta(config-if)#
+*Feb 28 03:54:34.879: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.1.1 on FastEthernet
+0/0 from LOADING to FULL, Loading Done
+Atlanta(config-if)#show ip int brief
+                     ^
+% Invalid input detected at '^' marker.
+Atlanta(config-if)#exit
+Atlanta(config)#interface f0/0
+Atlanta(config-if)#no shut
+Atlanta(config-if)#show ip int brief
+                     ^
+% Invalid input detected at '^' marker.
+Atlanta(config-if)#exit
+Atlanta(config)#exit
+Atlanta#
+*Feb 28 03:56:35.175: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip int breif
+                      ^
+% Invalid input detected at '^' marker.
+Atlanta#show ip int brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#
+Atlanta#
+Atlanta#int f0/0
+         ^
+% Invalid input detected at '^' marker.
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#int f0/0
+Atlanta(config-if)#shut
+Atlanta(config-if)#
+*Feb 28 03:58:46.751: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.1.1 on FastEthernet
+0/0 from FULL to DOWN, Neighbor Down: Interface down or detached
+Atlanta(config-if)#
+*Feb 28 03:58:48.747: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
+to administratively down
+*Feb 28 03:58:49.747: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+Atlanta(config-if)#exit
+Atlanta(config)#exit
+Atlanta#show ip int brief
+*Feb 28 03:58:56.567: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip int brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual administratively down down
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#router ospf 1
+         ^
+% Invalid input detected at '^' marker.
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#router ospf 1
+Atlanta(config-router)#no network 192.168.0.4 255.255.255.252 area 0
+Atlanta(config-router)#network 192.168.0.4 255.255.255.252 area 1
+Atlanta(config-router)#area 1 stub
+Atlanta(config-router)#
+Atlanta(config-router)#show ip route
+                        ^
+% Invalid input detected at '^' marker.
+Atlanta(config-router)#exit
+Atlanta(config)#exit
+Atlanta#show ip route
+*Feb 28 04:01:14.371: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:00:16, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/784] via 192.168.0.22, 00:00:16, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/783] via 192.168.0.22, 00:00:16, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 6 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:00:16, FastEthernet0/1
+O IA    192.168.0.12 [110/3] via 192.168.0.22, 00:00:17, FastEthernet0/1
+O       192.168.0.24 [110/783] via 192.168.0.22, 00:00:17, FastEthernet0/1
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:00:17, FastEthernet0/1
+O       192.168.0.16 [110/783] via 192.168.0.22, 00:00:17, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/784] via 192.168.0.22, 00:00:20, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:00:23, FastEthernet0/1
+Atlanta#show run | b router
+router ospf 1
+ log-adjacency-changes
+ area 1 stub
+ network 192.168.0.4 0.0.0.3 area 1
+ network 192.168.0.20 0.0.0.3 area 0
+ network 192.168.2.2 0.0.0.0 area 0
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0
+ login
+ length 0
+line vty 1 4
+ login
+!
+scheduler allocate 20000 1000
+end
+ 
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:02:16, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/784] via 192.168.0.22, 00:02:16, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/783] via 192.168.0.22, 00:02:16, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 6 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:02:16, FastEthernet0/1
+O IA    192.168.0.12 [110/3] via 192.168.0.22, 00:02:17, FastEthernet0/1
+O       192.168.0.24 [110/783] via 192.168.0.22, 00:02:17, FastEthernet0/1
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:02:17, FastEthernet0/1
+O       192.168.0.16 [110/783] via 192.168.0.22, 00:02:17, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/784] via 192.168.0.22, 00:02:19, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:02:21, FastEthernet0/1
+Atlanta#
+Atlanta#show ip int brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual administratively down down
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#config
+Configuring from terminal, memory, or network [terminal]? t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#int f0/0
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#do show run |
+*Feb 28 04:06:37.707: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
+o up
+*Feb 28 04:06:38.707: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+Atlanta(config-if)#do show run | b router
+router ospf 1
+ log-adjacency-changes
+ area 1 stub
+ network 192.168.0.4 0.0.0.3 area 1
+ network 192.168.0.20 0.0.0.3 area 0
+ network 192.168.2.2 0.0.0.0 area 0
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+ 
+Atlanta(config-if)#nd
+                    ^
+% Invalid input detected at '^' marker.
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#do show ip ospf nie
+show ip ospf nie
+              ^
+% Invalid input detected at '^' marker.
+Atlanta(config-if)#
+Atlanta(config-if)#do show ip ospf nei
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+192.168.3.3       1   FULL/DR         00:00:32    192.168.0.22    FastEthernet0/
+1
+192.168.1.1       1   2WAY/DROTHER    00:00:33    192.168.0.6     FastEthernet0/
+0
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#show ip route
+                     ^
+% Invalid input detected at '^' marker.
+Atlanta(config-if)#exit
+Atlanta(config)#exit
+Atlanta#s
+*Feb 28 04:07:17.723: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.1.1 on FastEthernet
+0/0 from LOADING to FULL, Loading Done
+*Feb 28 04:07:18.723: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:00:44, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/784] via 192.168.0.22, 00:00:44, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/783] via 192.168.0.22, 00:00:44, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 7 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:00:44, FastEthernet0/1
+O IA    192.168.0.12 [110/3] via 192.168.0.22, 00:00:45, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/783] via 192.168.0.22, 00:00:45, FastEthernet0/1
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:00:45, FastEthernet0/1
+O       192.168.0.16 [110/783] via 192.168.0.22, 00:00:45, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/784] via 192.168.0.22, 00:00:47, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:00:49, FastEthernet0/1
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:01:50, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/784] via 192.168.0.22, 00:01:50, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/783] via 192.168.0.22, 00:01:50, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 7 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:01:50, FastEthernet0/1
+O IA    192.168.0.12 [110/3] via 192.168.0.22, 00:01:51, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/783] via 192.168.0.22, 00:01:51, FastEthernet0/1
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:01:51, FastEthernet0/1
+O       192.168.0.16 [110/783] via 192.168.0.22, 00:01:51, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/784] via 192.168.0.22, 00:01:53, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:01:55, FastEthernet0/1
+Atlanta#
+Atlanta#show ip route summary
+IP routing table name is Default-IP-Routing-Table(0)
+IP routing table maximum-paths is 32
+Route Source    Networks    Subnets     Overhead    Memory (bytes)
+connected       0           3           192         456
+static          0           0           0           0
+ospf 1          0           10          640         1520
+  Intra-area: 9 Inter-area: 1 External-1: 0 External-2: 0
+  NSSA External-1: 0 NSSA External-2: 0
+internal        7                                   8204
+Total           7           13          832         10180
+Removing Queue Size 0
+Atlanta#show ip protocols
+Routing Protocol is "ospf 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Router ID 192.168.2.2
+  It is an area border router
+  Number of areas in this router is 2. 1 normal 1 stub 0 nssa
+  Maximum path: 4
+  Routing for Networks:
+    192.168.0.4 0.0.0.3 area 1
+    192.168.0.20 0.0.0.3 area 0
+    192.168.2.2 0.0.0.0 area 0
+ Reference bandwidth unit is 100 mbps
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    192.168.3.3          110      00:04:21
+    192.168.6.6          110      00:04:21
+    192.168.4.4          110      00:04:21
+    192.168.5.5          110      00:04:21
+    192.168.1.1          110      00:04:21
+  Distance: (default is 110)
+Atlanta#show ip ospf
+ Routing Process "ospf 1" with ID 192.168.2.2
+ Start time: 00:52:09.320, Time elapsed: 01:48:02.416
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Link-local Signaling (LLS)
+ Supports area transit capability
+ It is an area border router
+ Router is not originating router-LSAs with maximum metric
+ Initial SPF schedule delay 5000 msecs
+ Minimum hold time between two consecutive SPFs 10000 msecs
+ Maximum wait time between two consecutive SPFs 10000 msecs
+ Incremental-SPF disabled
+ Minimum LSA interval 5 secs
+ Minimum LSA arrival 1000 msecs
+ LSA group pacing timer 240 secs
+ Interface flood pacing timer 33 msecs
+ Retransmission pacing timer 66 msecs
+ Number of external LSA 0. Checksum Sum 0x000000
+ Number of opaque AS LSA 0. Checksum Sum 0x000000
+ Number of DCbitless external and opaque AS LSA 0
+ Number of DoNotAge external and opaque AS LSA 0
+ Number of areas in this router is 2. 1 normal 1 stub 0 nssa
+ Number of areas transit capable is 0
+ External flood list length 0
+ IETF NSF helper support enabled
+ Cisco NSF helper support enabled
+    Area BACKBONE(0)
+        Number of interfaces in this area is 2 (1 loopback)
+        Area has no authentication
+        SPF algorithm last executed 00:04:52.388 ago
+        SPF algorithm executed 35 times
+        Area ranges are
+        Number of LSA 14. Checksum Sum 0x065E1A
+        Number of opaque link LSA 0. Checksum Sum 0x000000
+        Number of DCbitless LSA 0
+        Number of indication LSA 0
+        Number of DoNotAge LSA 0
+        Flood list length 0
+    Area 1
+        Number of interfaces in this area is 1
+        It is a stub area
+          generates stub default route with cost 1
+        Area has no authentication
+        SPF algorithm last executed 00:04:15.564 ago
+        SPF algorithm executed 4 times
+        Area ranges are
+        Number of LSA 29. Checksum Sum 0x0E12EB
+        Number of opaque link LSA 0. Checksum Sum 0x000000
+        Number of DCbitless LSA 0
+        Number of indication LSA 0
+        Number of DoNotAge LSA 0
+        Flood list length 0
+ 
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip ospf neighbor
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+192.168.3.3       1   FULL/DR         00:00:35    192.168.0.22    FastEthernet0/
+1
+192.168.1.1       1   FULL/BDR        00:00:34    192.168.0.6     FastEthernet0/
+0
+Atlanta#
+Atlanta#
+Atlanta#show ip ospf database
+            OSPF Router with ID (192.168.2.2) (Process ID 1)
+                Router Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+192.168.1.1     192.168.1.1     319         0x80000010 0x006169 2
+192.168.2.2     192.168.2.2     316         0x8000000D 0x00AD21 2
+192.168.3.3     192.168.3.3     61          0x8000000A 0x0050C8 5
+192.168.4.4     192.168.4.4     728         0x8000000A 0x003DA1 2
+192.168.5.5     192.168.5.5     760         0x8000000D 0x00D9E9 2
+192.168.6.6     192.168.6.6     1870        0x80000006 0x006494 5
+                Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+192.168.0.9     192.168.4.4     1672        0x80000003 0x0095E0
+192.168.0.18    192.168.5.5     1892        0x80000003 0x0092D0
+192.168.0.22    192.168.3.3     837         0x80000002 0x00F37C
+192.168.0.25    192.168.1.1     1997        0x80000003 0x003438
+                Summary Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+192.168.0.4     192.168.1.1     314         0x80000001 0x008ED7
+192.168.0.4     192.168.2.2     315         0x80000001 0x0081E2
+192.168.0.12    192.168.4.4     727         0x80000001 0x001741
+192.168.0.12    192.168.5.5     760         0x80000001 0x000A4C
+ 
+                Router Link States (Area 1)
+ 
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+192.168.1.1     192.168.1.1     281         0x80000003 0x006A13 1
+192.168.2.2     192.168.2.2     281         0x80000003 0x003A40 1
+ 
+                Net Link States (Area 1)
+ 
+Link ID         ADV Router      Age         Seq#       Checksum
+192.168.0.5     192.168.2.2     281         0x80000001 0x009DEC
+ 
+                Summary Net Link States (Area 1)
+ 
+Link ID         ADV Router      Age         Seq#       Checksum
+0.0.0.0         192.168.1.1     323         0x80000001 0x00983A
+0.0.0.0         192.168.2.2     323         0x80000001 0x008B45
+192.168.0.8     192.168.1.1     324         0x80000001 0x002C27
+192.168.0.8     192.168.2.2     323         0x80000001 0x0081DF
+192.168.0.12    192.168.1.1     324         0x80000001 0x0070ED
+192.168.0.12    192.168.2.2     323         0x80000001 0x0063F8
+192.168.0.16    192.168.1.1     324         0x80000001 0x003E1D
+192.168.0.16    192.168.2.2     325         0x80000001 0x00CE7A
+192.168.0.20    192.168.1.1     326         0x80000001 0x00B393
+192.168.0.20    192.168.2.2     325         0x80000001 0x00FE57
+192.168.0.24    192.168.1.1     327         0x80000001 0x00E370
+192.168.0.24    192.168.2.2     326         0x80000001 0x007EC2
+192.168.0.28    192.168.1.1     327         0x80000001 0x0059E6
+192.168.0.28    192.168.2.2     326         0x80000001 0x004CF1
+192.168.1.1     192.168.1.1     327         0x80000001 0x00D195
+192.168.1.1     192.168.2.2     326         0x80000001 0x0076DC
+192.168.2.2     192.168.1.1     328         0x80000001 0x006EE4
+192.168.2.2     192.168.2.2     327         0x80000001 0x00AFB3
+192.168.3.3     192.168.1.1     328         0x80000001 0x004F03
+192.168.3.3     192.168.2.2     327         0x80000001 0x00A4BB
+192.168.4.4     192.168.1.1     328         0x80000001 0x00440B
+192.168.4.4     192.168.2.2     327         0x80000001 0x0099C3
+192.168.5.5     192.168.1.1     329         0x80000001 0x0091CB
+192.168.5.5     192.168.2.2     328         0x80000001 0x002229
+192.168.6.6     192.168.1.1     330         0x80000001 0x0072E9
+192.168.6.6     192.168.2.2     329         0x80000001 0x000347
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+O       192.168.4.4 [110/3] via 192.168.0.22, 00:08:06, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+O       192.168.5.5 [110/784] via 192.168.0.22, 00:08:06, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+O       192.168.6.6 [110/783] via 192.168.0.22, 00:08:06, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 7 subnets
+O       192.168.0.8 [110/2] via 192.168.0.22, 00:08:06, FastEthernet0/1
+O IA    192.168.0.12 [110/3] via 192.168.0.22, 00:08:07, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+O       192.168.0.24 [110/783] via 192.168.0.22, 00:08:07, FastEthernet0/1
+O       192.168.0.28 [110/782] via 192.168.0.22, 00:08:07, FastEthernet0/1
+O       192.168.0.16 [110/783] via 192.168.0.22, 00:08:07, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+O       192.168.1.1 [110/784] via 192.168.0.22, 00:08:14, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+O       192.168.3.3 [110/2] via 192.168.0.22, 00:09:47, FastEthernet0/1
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show run
+Building configuration...
+Current configuration : 1512 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Atlanta
+!
+boot-start-marker
+boot-end-marker
+!
+logging message-counter syslog
+!
+no aaa new-model
+!
+dot11 syslog
+ip source-route
+!
+!
+ip cef
+!
+!
+no ip domain lookup
+!
+no ipv6 cef
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+ no dspfarm
+!
+!
+!
+!
+!
+archive
+ log config
+  hidekeys
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 192.168.2.2 255.255.255.255
+!
+interface FastEthernet0/0
+ description Link to Brussels 198.168.0.6
+ ip address 192.168.0.5 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ description Link to Miami 192.168.0.22
+ ip address 192.168.0.21 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/0/0
+!
+interface FastEthernet0/0/1
+!
+interface FastEthernet0/0/2
+!
+interface FastEthernet0/0/3
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ no fair-queue
+ clock rate 125000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 125000
+!
+interface Vlan1
+ 
+Atlanta#show ip ospf 1 area 1 database
+                       ^
+% Invalid input detected at '^' marker.
+Atlanta#show i area 1 database
+                 ^
+% Invalid input detected at '^' marker.
+Atlanta#show ip ospf 1 1 database
+            OSPF Router with ID (192.168.2.2) (Process ID 1)
+                Router Link States (Area 1)
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+192.168.1.1     192.168.1.1     656         0x80000003 0x006A13 1
+192.168.2.2     192.168.2.2     655         0x80000003 0x003A40 1
+                Net Link States (Area 1)
+Link ID         ADV Router      Age         Seq#       Checksum
+192.168.0.5     192.168.2.2     655         0x80000001 0x009DEC
+                Summary Net Link States (Area 1)
+Link ID         ADV Router      Age         Seq#       Checksum
+0.0.0.0         192.168.1.1     697         0x80000001 0x00983A
+0.0.0.0         192.168.2.2     696         0x80000001 0x008B45
+192.168.0.8     192.168.1.1     697         0x80000001 0x002C27
+192.168.0.8     192.168.2.2     696         0x80000001 0x0081DF
+192.168.0.12    192.168.1.1     697         0x80000001 0x0070ED
+192.168.0.12    192.168.2.2     696         0x80000001 0x0063F8
+192.168.0.16    192.168.1.1     697         0x80000001 0x003E1D
+192.168.0.16    192.168.2.2     701         0x80000001 0x00CE7A
+192.168.0.20    192.168.1.1     703         0x80000001 0x00B393
+192.168.0.20    192.168.2.2     702         0x80000001 0x00FE57
+192.168.0.24    192.168.1.1     703         0x80000001 0x00E370
+192.168.0.24    192.168.2.2     702         0x80000001 0x007EC2
+192.168.0.28    192.168.1.1     704         0x80000001 0x0059E6
+192.168.0.28    192.168.2.2     703         0x80000001 0x004CF1
+192.168.1.1     192.168.1.1     704         0x80000001 0x00D195
+192.168.1.1     192.168.2.2     703         0x80000001 0x0076DC
+192.168.2.2     192.168.1.1     704         0x80000001 0x006EE4
+192.168.2.2     192.168.2.2     703         0x80000001 0x00AFB3
+192.168.3.3     192.168.1.1     704         0x80000001 0x004F03
+192.168.3.3     192.168.2.2     703         0x80000001 0x00A4BB
+192.168.4.4     192.168.1.1     704         0x80000001 0x00440B
+192.168.4.4     192.168.2.2     703         0x80000001 0x0099C3
+192.168.5.5     192.168.1.1     704         0x80000001 0x0091CB
+192.168.5.5     192.168.2.2     703         0x80000001 0x002229
+192.168.6.6     192.168.1.1     704         0x80000001 0x0072E9
+192.168.6.6     192.168.2.2     704         0x80000001 0x000347
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.22 0 msec 4 msec 0 msec
+  2 192.168.0.30 8 msec *  8 msec

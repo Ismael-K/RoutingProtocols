@@ -1,0 +1,1050 @@
+Authorized Users Only
+Password:
+% Please answer 'yes' or 'no'.
+Would you like to enter the initial configuration dialog? [yes/no]: n
+Press RETURN to get started!
+*Mar 28 00:35:33.639: %ESWMRVL_FLTMG-5-NOTICE: Notice: FPGA Rev 0x71
+*Mar 28 00:35:52.547: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
+d to: Initialized
+*Mar 28 00:35:52.551: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
+d to: Enabled
+*Mar 28 00:35:54.403: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0
+, changed state to up
+*Mar 28 00:35:54.403: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
+o up
+*Mar 28 00:35:54.403: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state t
+o up
+*Mar 28 00:35:54.403: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to do
+wn
+*Mar 28 00:35:54.403: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to do
+wn
+*Mar 28 00:35:54.407: %LINEPROTO-5-UPDOWN: Line protocol on Interface SSLVPN-VIF
+0, changed state to up
+*Mar 28 00:35:54.891: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha
+nged state to down
+*Mar 28 00:35:55.803: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+e
+Router>t0/0, changed state to up
+*Mar 28 00:35:55.807: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to up
+*Mar 28 00:35:55.807: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
+0, changed state to down
+*Mar 28 00:35:55.807: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
+1, changed state to down
+*Mar 28 01:08:32.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+*Mar 28 01:09:50.411: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+*Mar 28 01:12:50.159: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+*Mar 28 01:12:51.799: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+*Mar 28 01:13:20.815: %IP-5-WEBINST_KILL: Terminating DNS process
+*Mar 28 01:13:22.559: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
+to administratively down
+*Mar 28 01:13:22.559: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state
+to administratively down
+*Mar 28 01:13:22.559: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to a
+dministratively down
+*Mar 28 01:13:22.559: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to a
+dministratively down
+*Mar 28 01:13:23.055: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(20)T
+, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Thu 10-Jul-08 22:00 by prod_rel_team
+*Mar 28 01:13:23.063: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing
+ a cold start
+*Mar 28 01:13:23.295: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Mar 28 01:13:23.299: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Mar 28 01:13:23.299: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Mar 28 01:13:23.299: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Mar 28 01:13:23.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+*Mar 28 01:13:23.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to down
+*Mar 28 01:13:24.011: %LINK-3-UPDOWN: Interface FastEthernet0/0/3, changed state
+ to up
+*Mar 28 01:13:24.011: %LINK-3-UPDOWN: Interface FastEthernet0/0/2, changed state
+ to up
+*Mar 28 01:13:24.023: %LINK-3-UPDOWN: Interface FastEthernet0/0/1, changed state
+ to up
+*Mar 28 01:13:24.023: %LINK-3-UPDOWN: Interface FastEthernet0/0/0, changed state
+ to up
+*Mar 28 01:13:25.243: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/3, changed state to down
+*Mar 28 01:13:25.243: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/2, changed state to down
+*Mar 28 01:13:25.243: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/1, changed state to down
+*Mar 28 01:13:25.243: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/0, changed state to down
+Router>
+Router>
+Router>
+Router>
+Router>enable
+Router#nocnoc
+Translating "nocnoc"...domain server (255.255.255.255)
+Translating "nocnoc"...domain server (255.255.255.255)
+ (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router#erase startup-config
+Erasing the nvram filesystem will remove all configuration files! Continue? [con
+firm]y[OK]
+Erase of nvram: complete
+Router#
+*Mar 28 01:15:02.799: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#enable
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname Atlanta
+Atlanta(config)#no ip domain lookup
+Atlanta(config)#line console 0
+Atlanta(config-line)#logging synchronous
+Atlanta(config-line)#
+Atlanta(config-line)#
+Atlanta(config-line)#config terminal
+                     ^
+% Invalid input detected at '^' marker.
+Atlanta(config-line)#interface f0/0
+Atlanta(config-if)#description Link to Brussels 198.168.0.6
+Atlanta(config-if)#ip address 192.168.0.5 255.255.255.252
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+*Mar 28 01:18:42.775: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
+o up
+Atlanta(config-if)#
+Atlanta(config-if)#interface f0/1
+Atlanta(config-if)#description Link to Miami 192
+*Mar 28 01:19:15.403: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+Atlanta(config-if)#description Link to Miami 192.168.0.22
+Atlanta(config-if)#ip address 192.168.0.21 255.255.255.252
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+Atlanta(config-if)#
+*Mar 28 01:20:21.427: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state t
+o up
+Atlanta(config-if)#
+Atlanta(config-if)#
+Atlanta(config-if)#interface loop 0
+Atlanta(config-if)#
+*Mar 28 01:20:32.887: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0,
+ changed state to up
+Atlanta(config-if)#ip address 192.168.2.2 255.255.255.255
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+Atlanta(config-if)#end
+Atlanta#
+*Mar 28 01:21:50.443: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#
+Atlanta#
+Atlanta#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    down
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#
+Atlanta#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#interface f0/1
+Atlanta(config-if)#ip address 192.168.0.21  255.255.255.252
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+Atlanta(config-if)#end
+Atlanta#
+*Mar 28 01:23:51.659: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip int br
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    down
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#ping 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+.!!!!
+Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#
+*Mar 28 01:27:32.267: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to up
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+.!!!!
+Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#show ip int br
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#
+Atlanta#ping 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.0.0/30 is subnetted, 2 subnets
+C       192.168.0.4 is directly connected, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+Atlanta#ping 192.168.2.2
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.2.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#show ip int br
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#ping 192.168.2.2
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.2.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#foreach VAR {
+           ^
+% Invalid input detected at '^' marker.
+Atlanta#192.168.1.1
+Trying 192.168.1.1 ...
+% Destination unreachable; gateway or host down
+Atlanta#192.168.0.6
+Trying 192.168.0.6 ... Open
+192.168.0.25
+192.1
+Password required, but none set
+[Connection to 192.168.0.6 closed by foreign host]
+Atlanta#for each VAR {
+            ^
+% Invalid input detected at '^' marker.
+Atlanta#192.168.1.1
+Trying 192.168.1.1 ...
+% Destination unreachable; gateway or host down
+Atlanta#192.168.0.6
+Trying 192.168.0.6 ... Open
+192.168.0.25
+192.
+Password required, but none set
+[Connection to 192.168.0.6 closed by foreign host]
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#192.168.0.6
+Trying 192.168.0.6 ... Open
+Password required, but none set
+[Connection to 192.168.0.6 closed by foreign host]
+Atlanta#ping 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#ping 192.168.2.2
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.2.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#ping 192.168.3.3
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.3.3, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#
+Atlanta#router eigrp 1
+         ^
+% Invalid input detected at '^' marker.
+Atlanta#exit
+Atlanta con0 is now available
+Press RETURN to get started.
+Atlanta>
+Atlanta>
+Atlanta>
+Atlanta>
+Atlanta>router eigrp1
+         ^
+% Invalid input detected at '^' marker.
+Atlanta>enable
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#router eigrp1
+                            ^
+% Invalid input detected at '^' marker.
+Atlanta(config)#router eigrp 1
+Atlanta(config-router)#network 192.168.0.4 255.255.255.252
+Atlanta(config-router)#
+*Mar 28 01:53:00.963: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 192.168.0.6 (Fa
+stEthernet0/0) is up: new adjacency
+Atlanta(config-router)#network 192.168.0.20 255.255.255.252
+Atlanta(config-router)#network 192.168.2.2 255.255.255.225
+% EIGRP: Invalid address/mask combination (discontiguous mask)
+Atlanta(config-router)#no auto-summary
+Atlanta(config-router)#
+*Mar 28 01:54:25.871: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 192.168.0.6 (Fa
+stEthernet0/0) is resync: summary configured
+Atlanta(config-router)#
+Atlanta(config-router)#
+Atlanta(config-router)#show ip route
+                       ^
+% Invalid input detected at '^' marker.
+Atlanta(config-router)#exi
+Atlanta(config)#exit
+Atlanta#
+*Mar 28 01:56:06.955: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.0.0/30 is subnetted, 3 subnets
+C       192.168.0.4 is directly connected, FastEthernet0/0
+D       192.168.0.24 [90/30720] via 192.168.0.6, 00:03:15, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+D       192.168.1.1 [90/156160] via 192.168.0.6, 00:03:15, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+Atlanta#
+*Mar 28 01:56:40.727: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 192.168.0.22 (F
+astEthernet0/1) is up: new adjacency
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+D       192.168.4.4 [90/158720] via 192.168.0.22, 00:00:23, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+D       192.168.5.5 [90/161280] via 192.168.0.22, 00:00:23, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 6 subnets
+D       192.168.0.8 [90/30720] via 192.168.0.22, 00:00:23, FastEthernet0/1
+D       192.168.0.12 [90/33280] via 192.168.0.22, 00:00:23, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+D       192.168.0.24 [90/30720] via 192.168.0.6, 00:04:04, FastEthernet0/0
+D       192.168.0.16 [90/35840] via 192.168.0.22, 00:00:24, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+D       192.168.1.1 [90/156160] via 192.168.0.6, 00:04:04, FastEthernet0/0
+ 
+Atlanta#show ip route
+*Mar 28 01:57:11.419: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 192.168.0.22 (F
+astEthernet0/1) is resync: peer graceful-restart
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+D       192.168.4.4 [90/158720] via 192.168.0.22, 00:01:10, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+D       192.168.5.5 [90/161280] via 192.168.0.22, 00:01:10, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 6 subnets
+D       192.168.0.8 [90/30720] via 192.168.0.22, 00:01:10, FastEthernet0/1
+D       192.168.0.12 [90/33280] via 192.168.0.22, 00:01:10, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+D       192.168.0.24 [90/30720] via 192.168.0.6, 00:04:51, FastEthernet0/0
+D       192.168.0.16 [90/35840] via 192.168.0.22, 00:01:11, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+D       192.168.1.1 [90/156160] via 192.168.0.6, 00:04:51, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+D       192.168.3.3 [90/156160] via 192.168.0.22, 00:00:44, FastEthernet0/1
+Atlanta#
+Atlanta#tclsh
+Atlanta(tcl)#for each VAR {
++>192.168.1.1
++>192.168.0.6
++>192.168.0.25
++>192.168.3.3
++>192.168.0.10
++>192.168.0.22
++>192.168.4.4
++>192.168.0.9
++>192.168.0.14
++>192.168.5.5
++>192.168.0.18
++>192.168.0.13
++>192.168.6.6
++>192.168.0.17
++>192.168.0.26
++>} { puts [exec "ping $VAR"] }
+invalid command name "each"   ^
+% Invalid input detected at '^' marker.
+Atlanta(tcl)#for each VAR {
++>192.168.1.1
++>192.168.0.6
++>192.168.0.25
++>192.168.3.3
++>192.168.0.10
++>192.168.0.22
++>192.168.4.4
++>192.168.0.9
++>192.168.0.14
++>192.168.5.5
++>192.168.0.18
++>192.168.0.13
++>192.168.6.6
++>192.168.0.17
++>192.168.0.26
++>} { puts [exec "ping $VAR"] }
+invalid command name "each"   ^
+% Invalid input detected at '^' marker.
+Atlanta(tcl)#exit
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+D       192.168.4.4 [90/158720] via 192.168.0.22, 00:05:58, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+D       192.168.5.5 [90/161280] via 192.168.0.22, 00:05:58, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 6 subnets
+D       192.168.0.8 [90/30720] via 192.168.0.22, 00:05:58, FastEthernet0/1
+D       192.168.0.12 [90/33280] via 192.168.0.22, 00:05:58, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+D       192.168.0.24 [90/30720] via 192.168.0.6, 00:09:38, FastEthernet0/0
+D       192.168.0.16 [90/35840] via 192.168.0.22, 00:05:59, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+D       192.168.1.1 [90/156160] via 192.168.0.6, 00:09:38, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+D       192.168.3.3 [90/156160] via 192.168.0.22, 00:05:32, FastEthernet0/1
+Atlanta#
+Atlanta#show ip eigrp neighbors
+IP-EIGRP neighbors for process 1
+H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq
+                                            (sec)         (ms)       Cnt Num
+1   192.168.0.22            Fa0/1             13 00:08:20    2   200  0  17
+0   192.168.0.6             Fa0/0             12 00:12:00    1   200  0  9
+Atlanta#show ip rout55
+                    ^
+% Invalid input detected at '^' marker.
+Atlanta#
+Atlanta#show ip route 192.168.1.1
+Routing entry for 192.168.1.1/32
+  Known via "eigrp 1", distance 90, metric 156160, type internal
+  Redistributing via eigrp 1
+  Last update from 192.168.0.6 on FastEthernet0/0, 00:16:18 ago
+  Routing Descriptor Blocks:
+  * 192.168.0.6, from 192.168.0.6, 00:16:18 ago, via FastEthernet0/0
+      Route metric is 156160, traffic share count is 1
+      Total delay is 5100 microseconds, minimum bandwidth is 100000 Kbit
+      Reliability 255/255, minimum MTU 1500 bytes
+      Loading 1/255, Hops 1
+Atlanta#show ip protocol
+Routing Protocol is "eigrp 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 1
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    192.168.0.4/30
+    192.168.0.20/30
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    192.168.0.6           90      00:01:48
+    192.168.0.22          90      00:01:48
+  Distance: internal 90 external 170
+Atlanta#show ip eigrp topology
+IP-EIGRP Topology Table for AS(1)/ID(192.168.2.2)
+Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+       r - reply Status, s - sia Status
+P 192.168.0.8/30, 1 successors, FD is 30720
+        via 192.168.0.22 (30720/28160), FastEthernet0/1
+P 192.168.0.12/30, 1 successors, FD is 33280
+        via 192.168.0.22 (33280/30720), FastEthernet0/1
+P 192.168.3.3/32, 1 successors, FD is 156160
+        via 192.168.0.22 (156160/128256), FastEthernet0/1
+P 192.168.5.5/32, 2 successors, FD is 161280
+        via 192.168.0.6 (161280/158720), FastEthernet0/0
+        via 192.168.0.22 (161280/158720), FastEthernet0/1
+P 192.168.4.4/32, 1 successors, FD is 158720
+        via 192.168.0.22 (158720/156160), FastEthernet0/1
+P 192.168.1.1/32, 1 successors, FD is 156160
+        via 192.168.0.6 (156160/128256), FastEthernet0/0
+P 192.168.0.4/30, 1 successors, FD is 28160
+        via Connected, FastEthernet0/0
+P 192.168.0.24/30, 1 successors, FD is 30720
+        via 192.168.0.6 (30720/28160), FastEthernet0/0
+P 192.168.0.16/30, 1 successors, FD is 33280
+        via 192.168.0.6 (33280/30720), FastEthernet0/0
+P 192.168.0.20/30, 1 successors, FD is 28160
+        via Connected, FastEthernet0/1
+Atlanta#
+Atlanta#show ip eigrp 192.168.1.1 255.255.255.255
+                         ^
+% Invalid input detected at '^' marker.
+Atlanta#show ip eigrp topology 192.168.1.1 255.255.255.255
+IP-EIGRP (AS 1): Topology entry for 192.168.1.1/32
+  State is Passive, Query origin flag is 1, 1 Successor(s), FD is 156160
+  Routing Descriptor Blocks:
+  192.168.0.6 (FastEthernet0/0), from 192.168.0.6, Send flag is 0x0
+      Composite metric is (156160/128256), Route is Internal
+      Vector metric:
+        Minimum bandwidth is 100000 Kbit
+        Total delay is 5100 microseconds
+        Reliability is 255/255
+        Load is 1/255
+        Minimum MTU is 1500
+        Hop count is 1
+Atlanta#
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.6 0 msec 0 msec 0 msec
+  2 192.168.0.26 4 msec *  0 msec
+Atlanta#show run | sec router
+router eigrp 1
+ network 192.168.0.4 0.0.0.3
+ network 192.168.0.20 0.0.0.3
+ no auto-summary
+Atlanta#
+Atlanta#enable
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#router eigrp 1
+Atlanta(config-router)#network 192.168.
+% Incomplete command.
+Atlanta(config-router)#no auto-summary
+Atlanta(config-router)#
+Atlanta(config-router)#
+Atlanta(config-router)#network 192.168.2.2 255.255.255.255
+Atlanta(config-router)#do show run | sec router
+router eigrp 1
+ network 192.168.0.4 0.0.0.3
+ network 192.168.0.20 0.0.0.3
+ network 192.168.2.2 0.0.0.0
+ no auto-summary
+Atlanta(config-router)#show ip route
+                       ^
+% Invalid input detected at '^' marker.
+Atlanta(config-router)#exit
+Atlanta(config)#
+Atlanta(config)#tclsh
+                 ^
+% Invalid input detected at '^' marker.
+Atlanta(config)#exit
+Atlanta#
+*Mar 28 02:22:46.091: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#tclsh
+Atlanta(tcl)#for each VAR {
++>192.168.1.1
++>192.168.0.6
++>192.168.0.25
++>192.168.3.3
++>192.168.0.10
++>192.168.0.22
++>192.168.4.4
++>192.168.0.9
++>192.168.0.14
++>192.168.5.5
++>192.168.0.18
++>192.168.0.13
++>192.168.6.6
++>192.168.0.17
++>192.168.0.26
++>} { puts [exec "ping $VAR"] }
+invalid command name "each"   ^
+% Invalid input detected at '^' marker.
+Atlanta(tcl)#foreach VAR {
++>192.168.1.1
++>192.168.0.6
++>192.168.0.25
++>192.168.3.3
++>192.168.0.10
++>192.168.0.22
++>192.168.4.4
++>192.168.0.9
++>192.168.0.14
++>192.168.5.5
++>192.168.0.18
++>192.168.0.13
++>192.168.6.6
++>192.168.0.17
++>192.168.0.26
++>} { puts [exec "ping $VAR"] }
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.25, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.3.3, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.10, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.4.4, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.9, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.14, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.5.5, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.18, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.13, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.6.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.17, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.26, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta(tcl)#exit
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+D       192.168.4.4 [90/158720] via 192.168.0.22, 00:27:17, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+D       192.168.5.5 [90/161280] via 192.168.0.22, 00:16:02, FastEthernet0/1
+                    [90/161280] via 192.168.0.6, 00:16:02, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+D       192.168.6.6 [90/158720] via 192.168.0.6, 00:10:10, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 6 subnets
+D       192.168.0.8 [90/30720] via 192.168.0.22, 00:27:18, FastEthernet0/1
+D       192.168.0.12 [90/33280] via 192.168.0.22, 00:16:03, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+D       192.168.0.24 [90/30720] via 192.168.0.6, 00:30:58, FastEthernet0/0
+D       192.168.0.16 [90/33280] via 192.168.0.6, 00:16:03, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+D       192.168.1.1 [90/156160] via 192.168.0.6, 00:31:01, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+D       192.168.3.3 [90/156160] via 192.168.0.22, 00:26:51, FastEthernet0/1
+Atlanta#show ip route 192.168.1.1
+Routing entry for 192.168.1.1/32
+  Known via "eigrp 1", distance 90, metric 156160, type internal
+  Redistributing via eigrp 1
+  Last update from 192.168.0.6 on FastEthernet0/0, 00:32:32 ago
+  Routing Descriptor Blocks:
+  * 192.168.0.6, from 192.168.0.6, 00:32:32 ago, via FastEthernet0/0
+      Route metric is 156160, traffic share count is 1
+      Total delay is 5100 microseconds, minimum bandwidth is 100000 Kbit
+      Reliability 255/255, minimum MTU 1500 bytes
+      Loading 1/255, Hops 1
+Atlanta#show ip protocol
+Routing Protocol is "eigrp 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 1
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    192.168.0.4/30
+    192.168.0.20/30
+    192.168.2.2/32
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    192.168.0.6           90      00:04:27
+    192.168.0.22          90      00:04:27
+  Distance: internal 90 external 170
+Atlanta#show ip eigrp neighbors
+IP-EIGRP neighbors for process 1
+H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq
+                                            (sec)         (ms)       Cnt Num
+1   192.168.0.22            Fa0/1             13 00:30:19    1   200  0  22
+0   192.168.0.6             Fa0/0             11 00:33:59    1   200  0  17
+Atlanta#show ip eigrp topology
+IP-EIGRP Topology Table for AS(1)/ID(192.168.2.2)
+Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+       r - reply Status, s - sia Status
+P 192.168.0.8/30, 1 successors, FD is 30720
+        via 192.168.0.22 (30720/28160), FastEthernet0/1
+P 192.168.0.12/30, 1 successors, FD is 33280
+        via 192.168.0.22 (33280/30720), FastEthernet0/1
+P 192.168.2.2/32, 1 successors, FD is 128256
+        via Connected, Loopback0
+P 192.168.6.6/32, 1 successors, FD is 158720
+        via 192.168.0.6 (158720/156160), FastEthernet0/0
+P 192.168.3.3/32, 1 successors, FD is 156160
+        via 192.168.0.22 (156160/128256), FastEthernet0/1
+P 192.168.5.5/32, 2 successors, FD is 161280
+        via 192.168.0.6 (161280/158720), FastEthernet0/0
+        via 192.168.0.22 (161280/158720), FastEthernet0/1
+P 192.168.4.4/32, 1 successors, FD is 158720
+        via 192.168.0.22 (158720/156160), FastEthernet0/1
+P 192.168.1.1/32, 1 successors, FD is 156160
+        via 192.168.0.6 (156160/128256), FastEthernet0/0
+P 192.168.0.4/30, 1 successors, FD is 28160
+        via Connected, FastEthernet0/0
+P 192.168.0.24/30, 1 successors, FD is 30720
+        via 192.168.0.6 (30720/28160), FastEthernet0/0
+P 192.168.0.16/30, 1 successors, FD is 33280
+        via 192.168.0.6 (33280/30720), FastEthernet0/0
+P 192.168.0.20/30, 1 successors, FD is 28160
+        via Connected, FastEthernet0/1
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.6 0 msec 0 msec 4 msec
+  2 192.168.0.26 0 msec *  0 msec
+Atlanta#
+Atlanta#
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#ping 192.168.0.30
+                 ^
+% Invalid input detected at '^' marker.
+Atlanta(config)#exit
+Atlanta#conf t
+*Mar 28 02:36:33.387: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#ping 192.168.0.30
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.30, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#ping 192.168.0.29
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.29, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Atlanta#ping 192.168.0.28
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.28, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#ping 192.168.0.29
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.29, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 8/8/8 ms
+Atlanta#ping 192.168.0.30
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.30, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+D       192.168.4.4 [90/158720] via 192.168.0.22, 00:42:17, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+D       192.168.5.5 [90/161280] via 192.168.0.22, 00:31:02, FastEthernet0/1
+                    [90/161280] via 192.168.0.6, 00:31:02, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+D       192.168.6.6 [90/158720] via 192.168.0.6, 00:25:10, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+D       192.168.0.8 [90/30720] via 192.168.0.22, 00:42:18, FastEthernet0/1
+D       192.168.0.12 [90/33280] via 192.168.0.22, 00:31:04, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+D       192.168.0.24 [90/30720] via 192.168.0.6, 00:45:58, FastEthernet0/0
+D       192.168.0.28 [90/20514560] via 192.168.0.22, 00:00:17, FastEthernet0/1
+D       192.168.0.16 [90/33280] via 192.168.0.6, 00:31:05, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+D       192.168.1.1 [90/156160] via 192.168.0.6, 00:46:01, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+D       192.168.3.3 [90/156160] via 192.168.0.22, 00:41:53, FastEthernet0/1
+Atlanta#
+Atlanta#show ip route 192.168.0.28
+Routing entry for 192.168.0.28/30
+  Known via "eigrp 1", distance 90, metric 20514560, type internal
+  Redistributing via eigrp 1
+  Last update from 192.168.0.22 on FastEthernet0/1, 00:02:36 ago
+  Routing Descriptor Blocks:
+  * 192.168.0.22, from 192.168.0.22, 00:02:36 ago, via FastEthernet0/1
+      Route metric is 20514560, traffic share count is 1
+      Total delay is 20100 microseconds, minimum bandwidth is 128 Kbit
+      Reliability 255/255, minimum MTU 1500 bytes
+      Loading 1/255, Hops 1
+Atlanta#show ip protocols
+Routing Protocol is "eigrp 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 1
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    192.168.0.4/30
+    192.168.0.20/30
+    192.168.2.2/32
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    192.168.0.6           90      00:02:49
+    192.168.0.22          90      00:02:49
+  Distance: internal 90 external 170
+Atlanta#show ip eigrp neighbors
+IP-EIGRP neighbors for process 1
+H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq
+                                            (sec)         (ms)       Cnt Num
+1   192.168.0.22            Fa0/1             11 00:45:02    1   200  0  29
+0   192.168.0.6             Fa0/0             13 00:48:42    1   200  0  20
+Atlanta#show ip eigrp topology
+IP-EIGRP Topology Table for AS(1)/ID(192.168.2.2)
+Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+       r - reply Status, s - sia Status
+P 192.168.0.8/30, 1 successors, FD is 30720
+        via 192.168.0.22 (30720/28160), FastEthernet0/1
+P 192.168.0.12/30, 1 successors, FD is 33280
+        via 192.168.0.22 (33280/30720), FastEthernet0/1
+P 192.168.2.2/32, 1 successors, FD is 128256
+        via Connected, Loopback0
+P 192.168.6.6/32, 1 successors, FD is 158720
+        via 192.168.0.6 (158720/156160), FastEthernet0/0
+P 192.168.3.3/32, 1 successors, FD is 156160
+        via 192.168.0.22 (156160/128256), FastEthernet0/1
+P 192.168.5.5/32, 2 successors, FD is 161280
+        via 192.168.0.6 (161280/158720), FastEthernet0/0
+        via 192.168.0.22 (161280/158720), FastEthernet0/1
+P 192.168.4.4/32, 1 successors, FD is 158720
+        via 192.168.0.22 (158720/156160), FastEthernet0/1
+P 192.168.1.1/32, 1 successors, FD is 156160
+        via 192.168.0.6 (156160/128256), FastEthernet0/0
+P 192.168.0.4/30, 1 successors, FD is 28160
+        via Connected, FastEthernet0/0
+P 192.168.0.24/30, 1 successors, FD is 30720
+        via 192.168.0.6 (30720/28160), FastEthernet0/0
+P 192.168.0.28/30, 1 successors, FD is 20514560
+        via 192.168.0.22 (20514560/20512000), FastEthernet0/1
+P 192.168.0.16/30, 1 successors, FD is 33280
+        via 192.168.0.6 (33280/30720), FastEthernet0/0
+P 192.168.0.20/30, 1 successors, FD is 28160
+        via Connected, FastEthernet0/1
+Atlanta#
+Atlanta#show ip eigrp topology 192.168.0.28 255.255.255.252
+IP-EIGRP (AS 1): Topology entry for 192.168.0.28/30
+  State is Passive, Query origin flag is 1, 1 Successor(s), FD is 20514560
+  Routing Descriptor Blocks:
+  192.168.0.22 (FastEthernet0/1), from 192.168.0.22, Send flag is 0x0
+      Composite metric is (20514560/20512000), Route is Internal
+      Vector metric:
+        Minimum bandwidth is 128 Kbit
+        Total delay is 20100 microseconds
+        Reliability is 255/255
+        Load is 1/255
+        Minimum MTU is 1500
+        Hop count is 1
+  192.168.0.6 (FastEthernet0/0), from 192.168.0.6, Send flag is 0x0
+      Composite metric is (20517120/20514560), Route is Internal
+      Vector metric:
+        Minimum bandwidth is 128 Kbit
+        Total delay is 20200 microseconds
+        Reliability is 255/255
+        Load is 1/255
+        Minimum MTU is 1500
+        Hop count is 2
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.6 0 msec 0 msec 4 msec
+  2 192.168.0.26 0 msec *  0 msec
+Atlanta#
+Atlanta con0 is now available
+Press RETURN to get started.

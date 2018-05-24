@@ -1,0 +1,1520 @@
+
+Authorized Users Only
+Password:
+% Please answer 'yes' or 'no'.
+Would you like to enter the initial configuration dialog? [yes/no]: no
+Press RETURN to get started!
+*Feb 14 01:46:58.639: %ESWMRVL_FLTMG-5-NOTICE: Notice: FPGA Rev 0x71
+*Feb 14 01:47:17.527: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
+d to: Initialized
+*Feb 14 01:47:17.531: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
+d to: Enabled
+*Feb 14 01:47:19.383: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0
+, changed state to up
+*Feb 14 01:47:19.383: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
+o up
+*Feb 14 01:47:19.383: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state t
+o up
+*Feb 14 01:47:19.387: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to do
+wn
+*Feb 14 01:47:19.387: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to do
+wn
+*Feb 14 01:47:19.387: %LINEPROTO-5-UPDOWN: Line protocol on Interface SSLVPN-VIF
+0, changed state to up
+*Feb 14 01:47:19.871: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha
+nged state to down
+*Feb 14 01:47:20.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+e
+Router>t0/0, changed state to up
+*Feb 14 01:47:20.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to up
+*Feb 14 01:47:20.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
+0, changed state to down
+*Feb 14 01:47:20.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
+1, changed state to down
+*Feb 14 01:57:27.207: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to down
+*Feb 14 01:58:43.475: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to up
+*Feb 14 01:59:23.519: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+*Feb 14 02:00:20.795: %IP-5-WEBINST_KILL: Terminating DNS process
+*Feb 14 02:00:21.099: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
+to administratively down
+*Feb 14 02:00:21.099: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state
+to administratively down
+*Feb 14 02:00:21.103: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to a
+dministratively down
+*Feb 14 02:00:21.103: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to a
+dministratively down
+*Feb 14 02:00:22.099: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to down
+*Feb 14 02:00:28.003: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(20)T
+, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Thu 10-Jul-08 22:00 by prod_rel_team
+*Feb 14 02:00:28.011: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing
+ a cold start
+*Feb 14 02:00:28.243: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Feb 14 02:00:28.243: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Feb 14 02:00:28.243: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Feb 14 02:00:28.247: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Feb 14 02:00:28.999: %LINK-3-UPDOWN: Interface FastEthernet0/0/3, changed state
+ to up
+*Feb 14 02:00:28.999: %LINK-3-UPDOWN: Interface FastEthernet0/0/2, changed state
+ to up
+*Feb 14 02:00:28.999: %LINK-3-UPDOWN: Interface FastEthernet0/0/1, changed state
+ to up
+*Feb 14 02:00:29.003: %LINK-3-UPDOWN: Interface FastEthernet0/0/0, changed state
+ to up
+*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/3, changed state to down
+*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/2, changed state to down
+*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/1, changed state to down
+*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0/0, changed state to down
+Router>enable
+Router#erase startup-config
+Erasing the nvram filesystem will remove all configuration files! Continue? [con
+firm]^[
+Router#erase startup-config
+Erasing the nvram filesystem will remove all configuration files! Continue? [con
+firm]y[OK]
+Erase of nvram: complete
+Router#
+*Feb 14 02:03:06.487: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Router#enable
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname Atlanta
+Atlanta(config)#no ip domain lookup
+Atlanta(config)#line console 0
+Atlanta(config-line)#logging synchronous
+Atlanta(config-line)#config terminal
+                     ^
+% Invalid input detected at '^' marker.
+Atlanta(config-line)#enable
+                      ^
+% Invalid input detected at '^' marker.
+Atlanta(config-line)#^Z
+Atlanta#
+*Feb 14 02:06:46.819: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#interface f0/0
+Atlanta(config-if)#description Link to Brussels 192.168.0.6
+Atlanta(config-if)#ip address 192.168.0.5 255.255.255.252
+Atlanta(config-if)#no shut
+Atlanta(config-if)#
+*Feb 14 02:08:54.259: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
+o up
+*Feb 14 02:08:55.259: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+Atlanta(config-if)#interface f0/1
+Atlanta(config-if)#description Link to Miami 198.168.2.22
+Atlanta(config-if)#description Link to Miami 192.168.2.22
+Atlanta(config-if)#no description Link to Miami 198.168.2.22
+Atlanta(config-if)#do show run int f0/0
+Building configuration...
+Current configuration : 140 bytes
+!
+interface FastEthernet0/0
+ description Link to Brussels 192.168.0.6
+ ip address 192.168.0.5 255.255.255.252
+ duplex auto
+ speed auto
+end
+Atlanta(config-if)#do show run int f0/1
+Building configuration...
+Current configuration : 83 bytes
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+end
+Atlanta(config-if)#interface f0/1
+Atlanta(config-if)#description Link to Miami 192.168.2.22
+Atlanta(config-if)#ip address 192.168.0.21 255.255.255.252
+Atlanta(config-if)#no shut
+Atlanta(config-if)#do
+*Feb 14 02:14:13.507: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state t
+o up
+*Feb 14 02:14:14.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/1, changed state to up
+Atlanta(config-if)#do show run int f0/1
+Building configuration...
+Current configuration : 139 bytes
+!
+interface FastEthernet0/1
+ description Link to Miami 192.168.2.22
+ ip address 192.168.0.21 255.255.255.252
+ duplex auto
+ speed auto
+end
+Atlanta(config-if)#do show run int f0/0
+Building configuration...
+Current configuration : 140 bytes
+!
+interface FastEthernet0/0
+ description Link to Brussels 192.168.0.6
+ ip address 192.168.0.5 255.255.255.252
+ duplex auto
+ speed auto
+end
+Atlanta(config-if)#int lo 0
+Atlanta(config-if)#
+*Feb 14 02:15:20.819: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0,
+ changed state to up
+Atlanta(config-if)#ip add 192.168.2.2 255.255.255.252
+Atlanta(config-if)#no ip add 192.168.2.2 255.255.255.252
+Atlanta(config-if)# ip add 192.168.2.2 255.255.255.255
+Atlanta(config-if)#end
+Atlanta#
+*Feb 14 02:16:25.371: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip brief
+                 ^
+% Invalid input detected at '^' marker.
+Atlanta#show ip int brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#ping 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+.!!!!
+Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.0.0/30 is subnetted, 2 subnets
+C       192.168.0.4 is directly connected, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+Atlanta#show ip int brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual up                    up
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#ping 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#ping 192.168.0.22
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.22, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Atlanta#
+Atlanta con0 is now available
+Press RETURN to get started.
+Atlanta>enable
+Atlanta#router rip
+         ^
+% Invalid input detected at '^' marker.
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#router rip
+Atlanta(config-router)#version 2
+Atlanta(config-router)#network 192.168.0.0
+Atlanta(config-router)#network 192.168.1.0
+Atlanta(config-router)#network 192.168.2.0
+Atlanta(config-router)#network 192.168.3.0
+Atlanta(config-router)#network 192.168.4.0
+Atlanta(config-router)#network 192.168.5.0
+Atlanta(config-router)#network 192.168.6.0
+Atlanta(config-router)#no auto-summary
+Atlanta(config-router)#debug IP RIP
+                         ^
+% Invalid input detected at '^' marker.
+Atlanta(config-router)#end
+Atlanta#
+*Feb 14 02:44:29.751: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#^Z
+Atlanta#^Z
+Atlanta#exit
+Atlanta con0 is now available
+Press RETURN to get started.
+Atlanta>debug IP RIP
+         ^
+% Invalid input detected at '^' marker.
+Atlanta>debug ip rip
+         ^
+% Invalid input detected at '^' marker.
+Atlanta>en
+Atlanta#exit
+Atlanta con0 is now available
+Press RETURN to get started.
+Atlanta>en
+Atlanta#en?
+enable
+Atlanta#en
+Atlanta#en?
+enable
+Atlanta#en
+Atlanta#en
+Atlanta#debug ip?
+ip  ipc  iphc  ipv6
+Atlanta#debug ip rip
+RIP protocol debugging is on
+Atlanta#
+*Feb 14 02:47:22.603: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 02:47:22.603:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 02:47:22.603:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:22.603:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 02:47:22.603:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 02:47:22.603:      192.168.2.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:22.603:      192.168.3.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:22.603:      192.168.5.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:22.603:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+Atlanta#
+*Feb 14 02:47:22.603:      192.168.6.0/24 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:22.603:      192.168.6.4/30 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 02:47:25.975: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 02:47:25.975: RIP: build update entries
+*Feb 14 02:47:25.975:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:25.975:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:25.975:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:25.975:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:25.975:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:25.975:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:25.975:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:25.975:   192.168.3.0/24 via 0.0.0.0, metric 16, tag 0
+Atlanta#
+*Feb 14 02:47:25.975:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:25.975:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:25.975:   192.168.5.0/24 via 0.0.0.0, metric 16, tag 0
+*Feb 14 02:47:25.975:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 02:47:25.975:   192.168.6.0/24 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:25.975:   192.168.6.4/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:25.975: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 02:47:36.375: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 02:47:36.379:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 02:47:36.379:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:36.379:      192.168.0.16/30 via 0.0.0.0 in 3 hops
+*Feb 14 02:47:36.379:      192.168.1.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:36.379:      192.168.2.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:36.379:      192.168.3.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:36.379:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 02:47:36.379:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:36.379:      192.168.5.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:36.379:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 02:47:36.983: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 02:47:36.983: RIP: build update entries
+*Feb 14 02:47:36.983:   192.168.0.4/30 via 0.0.0.0,
+Atlanta# metric 1, tag 0
+*Feb 14 02:47:36.983:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:36.983:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:36.983:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:36.983:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:36.983:   192.168.3.0/24 via 0.0.0.0, metric 16, tag 0
+*Feb 14 02:47:36.983:   192.168.5.0/24 via 0.0.0.0, metric 16, tag 0
+*Feb 14 02:47:36.983:   192.168.6.0/24 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:36.983:   192.168.6.4/30 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 02:47:39.007: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 02:47:39.007: RIP: build update entries
+*Feb 14 02:47:39.007:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:39.007:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:39.007:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:39.007:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:39.007:   192.168.3.0/24 via 0.0.0.0, metric 16, tag 0
+*Feb 14 02:47:39.007:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:39.007:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:39.007:   192.168.5.0/24 via 0.0.0.0, metric 16, tag 0
+Atlanta#
+*Feb 14 02:47:50.755: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 02:47:50.755:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 02:47:50.755:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:50.755:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 02:47:50.755:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 02:47:50.755:      192.168.5.0/24 via 0.0.0.0 in 16 hops  (inaccessible)
+*Feb 14 02:47:50.755:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 02:47:50.755:      192.168.6.0/24 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:50.755:      192.168.6.4/30 via 0.0.0.0 in 2 hops
+*Feb 14 02:47:51.935: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 02:47:51.935: RIP: build update entries
+*Feb 14 02:47:51.935:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:51.935:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:51.935:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:51.935:   192.168.0.
+Atlanta#16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:51.935:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:47:51.935:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:51.935:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:51.935:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:47:51.935:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:51.935:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 02:47:51.935:   192.168.6.0/24 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:51.935:   192.168.6.4/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:47:51.935: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 02:48:02.227: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 02:48:02.227:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 02:48:02.231:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 02:48:02.231:      192.168.0.16/30 via 0.0.0.0 in 3 hops
+*Feb 14 02:48:02.231:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 02:48:02.231:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 02:48:02.231:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+Atlanta#
+*Feb 14 02:48:05.043: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 02:48:05.043: RIP: build update entries
+*Feb 14 02:48:05.043:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:48:05.043:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:48:05.043:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:48:05.043:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:48:05.043:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:48:05.043:   192.168.6.0/24 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:48:05.043:   192.168.6.4/30 via 0.0.0.0, metric 3, tag 0
+Atlanta#no debug
+*Feb 14 02:48:07.879: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 02:48:07.879: RIP: build update entries
+*Feb 14 02:48:07.879:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:48:07.879:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 02:48:07.879:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:48:07.879:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 02:48:07.879:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 02:48:07.879:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#no debug ip rip
+RIP protocol debugging is off
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:22, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:22, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:01, FastEthernet0/0
+     192.168.6.0/30 is subnetted, 1 subnets
+R       192.168.6.4 [120/2] via 192.168.0.6, 00:00:01, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 6 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:23, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:23, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:02, FastEthernet0/0
+R       192.168.0.16 [120/2] via 192.168.0.6, 00:00:02, FastEthernet0/0
+ 
+Atlanta#show ip route rip
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:14, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:00, FastEthernet0/0
+     192.168.6.0/30 is subnetted, 1 subnets
+R       192.168.6.4 [120/2] via 192.168.0.6, 00:00:00, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 6 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:14, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:14, FastEthernet0/1
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:00, FastEthernet0/0
+R       192.168.0.16 [120/2] via 192.168.0.6, 00:00:00, FastEthernet0/0
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/1] via 192.168.0.6, 00:00:00, FastEthernet0/0
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:14, FastEthernet0/1
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:23, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:23, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:14, FastEthernet0/0
+     192.168.6.0/30 is subnetted, 1 subnets
+R       192.168.6.4 [120/2] via 192.168.0.6, 00:00:14, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 6 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:24, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:24, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:15, FastEthernet0/0
+R       192.168.0.16 [120/2] via 192.168.0.6, 00:00:15, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/1] via 192.168.0.6, 00:00:23, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:08, FastEthernet0/1
+Atlanta#
+Atlanta con0 is now available
+Press RETURN to get started.
+Atlanta>enable
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.6 0 msec 0 msec 4 msec
+  2 192.168.0.26 0 msec *  0 msec
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#debug ip rip
+RIP protocol debugging is on
+Atlanta#
+*Feb 14 03:16:35.423: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:16:35.423: RIP: build update entries
+*Feb 14 03:16:35.423:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:16:35.423:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:35.423:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:16:35.423:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:16:35.423:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:16:35.423:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:35.423:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:35.423:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+Atlanta#
+*Feb 14 03:16:35.423:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:35.423:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:16:35.423:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:16:35.423:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:16:35.423: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:16:38.227: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:16:38.227: RIP: build update entries
+*Feb 14 03:16:38.227:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:16:38.227:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:38.227:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:38.227:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:16:38.687: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:16:38.687:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:16:38.687:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:16:38.687:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:16:38.687:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:16:38.687:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:16:38.687:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:16:38.687:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:16:39.667: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:16:39.667: RIP: build update entries
+*Feb 14 03:16:39.667:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:39.667:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:16:39.667:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:16:39.667:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:39.667:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:16:39.667:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:16:39.667:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:16:48.523: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:16:48.523:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:16:48.523:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:16:48.523:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:16:48.523:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:16:48.523:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:16:48.523:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:16:48.523:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:16:48.523:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:16:48.523:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:17:04.963: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:17:04.963: RIP: build update entries
+*Feb 14 03:17:04.963:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:04.963:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:04.963:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:04.963:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:04.963:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:04.963:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:04.963:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:04.963:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+Atlanta#
+*Feb 14 03:17:04.963:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:04.963:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:04.963:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:17:04.963:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:04.963: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:17:06.659: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:17:06.659:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:17:06.659:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:06.659:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:06.659:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:06.659:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:06.659:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:17:06.659:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:06.715: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:17:06.715: RIP: build update entries
+Atlanta#
+*Feb 14 03:17:06.715:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:06.715:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:06.715:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:06.715:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:06.715:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:06.715:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:06.715:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:17:07.943: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:17:07.943: RIP: build update entries
+*Feb 14 03:17:07.943:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:07.943:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:07.943:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:07.943:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:17:16.163: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:17:16.163:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:16.163:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:16.163:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:16.163:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:16.163:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:16.163:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:16.163:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:16.163:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:17:16.163:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:17:32.435: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:17:32.435: RIP: build update entries
+*Feb 14 03:17:32.435:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:32.435:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.435:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:32.435:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:32.435:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:32.435:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.435:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.435:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.435:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.435:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:32.435:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:17:32.435:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:32.435: RIP: ignored v2 pa
+Atlanta#cket from 192.168.2.2 (sourced from one of our addresses)
+*Feb 14 03:17:32.743: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:17:32.743: RIP: build update entries
+*Feb 14 03:17:32.743:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.743:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:32.743:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:32.743:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.743:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:32.743:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:32.743:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:17:36.175: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:17:36.175:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:17:36.175:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:36.175:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:36.175:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:36.175:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:36.175:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:17:36.175:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:36.559: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:17:36.559: RIP: build update entries
+Atlanta#
+*Feb 14 03:17:36.559:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:36.559:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:36.559:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:36.559:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:17:43.207: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:17:43.207:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:43.207:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:43.207:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:43.207:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:43.207:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:43.207:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:17:43.207:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:17:43.207:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:17:43.207:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:17:59.131: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:17:59.131: RIP: build update entries
+*Feb 14 03:17:59.131:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.131:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:59.131:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:59.131:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.131:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:59.131:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.131:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:59.427: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:17:59.427: RIP: build update entries
+*Feb 14 03:17:59.427:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:59.427:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.427:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:59.427:   192.168.0.16
+Atlanta#/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:59.427:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:17:59.427:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.427:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.427:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.427:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:17:59.427:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:59.427:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:17:59.427:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:17:59.427: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:18:05.295: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:18:05.295:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:18:05.295:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:18:05.295:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:18:05.295:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:18:05.295:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:18:05.295:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:18:05.295:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:18:06.435: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:18:06.435: RIP: build update entries
+*Feb 14 03:18:06.435:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:18:06.435:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:18:06.435:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:18:06.435:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:18:12.375: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:18:12.379:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:18:12.379:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:18:12.379:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:18:12.379:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:18:12.379:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:18:12.379:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:18:12.379:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:18:12.379:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:18:12.379:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#no debug ip rip
+RIP protocol debugging is off
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:01, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:01, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:11, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:01, FastEthernet0/1
+                    [120/2] via 192.168.0.6, 00:00:11, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:02, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:02, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:12, FastEthernet0/0
+ 
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:15, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:15, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:25, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:15, FastEthernet0/1
+                    [120/2] via 192.168.0.6, 00:00:25, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:16, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:16, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:00, FastEthernet0/0
+ 
+Atlanta#show ip route rip
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:26, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:26, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:10, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:26, FastEthernet0/1
+                    [120/2] via 192.168.0.6, 00:00:10, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:26, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:26, FastEthernet0/1
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:10, FastEthernet0/0
+R       192.168.0.28 [120/1] via 192.168.0.22, 00:00:26, FastEthernet0/1
+R       192.168.0.16 [120/2] via 192.168.0.22, 00:00:26, FastEthernet0/1
+                     [120/2] via 192.168.0.6, 00:00:10, FastEthernet0/0
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/1] via 192.168.0.6, 00:00:11, FastEthernet0/0
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:00, FastEthernet0/1
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:04, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:04, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:15, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:04, FastEthernet0/1
+                    [120/2] via 192.168.0.6, 00:00:15, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:05, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:05, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:16, FastEthernet0/0
+ 
+Atlanta#ping 192.168.0.30
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.30, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 12/15/16 ms
+Atlanta#ping 192.168.0.29
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.29, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Atlanta#debug ip rip
+RIP protocol debugging is on
+Atlanta#
+*Feb 14 03:24:26.919: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:24:26.919: RIP: build update entries
+*Feb 14 03:24:26.919:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:26.919:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:26.919:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:26.919:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:26.919:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:26.919:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:26.919:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:26.919:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+Atlanta#
+*Feb 14 03:24:26.919:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:26.919:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:26.919:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:24:26.919:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:26.919: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+*Feb 14 03:24:27.907: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:24:27.907: RIP: build update entries
+*Feb 14 03:24:27.907:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:27.907:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:24:27.907:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:27.907:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:27.907:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:27.907:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:27.907:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:24:36.799: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:24:36.799: RIP: build update entries
+*Feb 14 03:24:36.799:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:36.799:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:36.799:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:36.799:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:24:39.039: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:24:39.043:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:24:39.043:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.043:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:24:39.043:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.043:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:24:39.043:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:24:39.043:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.379: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:24:39.379:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+Atlanta#
+*Feb 14 03:24:39.379:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.379:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.379:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.379:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:24:39.379:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:24:39.379:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:24:39.379:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:24:39.379:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:24:55.731: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:24:55.731: RIP: build update entries
+*Feb 14 03:24:55.731:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.731:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:55.731:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:55.731:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.731:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:55.731:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.731:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:55.995: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:24:55.995: RIP: build update entries
+*Feb 14 03:24:55.995:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:55.995:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.995:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:55.995:   192.168.0.16
+Atlanta#/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:55.995:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:24:55.995:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.995:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.995:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.995:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:24:55.995:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:55.995:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:24:55.995:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:24:55.995: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:25:05.083: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:25:05.083: RIP: build update entries
+*Feb 14 03:25:05.083:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:05.083:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:05.083:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:05.083:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:25:07.391: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:25:07.391:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:07.391:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:07.391:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:07.391:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:07.391:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:07.391:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:07.391:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:07.395:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:25:07.395:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:25:07.951: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:25:07.955:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:25:07.955:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:07.955:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:07.955:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:07.955:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:07.955:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:25:07.955:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:25:21.683: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:25:21.683: RIP: build update entries
+*Feb 14 03:25:21.683:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:21.683:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:21.683:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:21.683:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:21.683:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:21.683:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:21.683:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:21.683:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+Atlanta#
+*Feb 14 03:25:21.683:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:21.683:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:21.683:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:25:21.683:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:21.683: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:25:24.603: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:25:24.603: RIP: build update entries
+*Feb 14 03:25:24.603:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:24.603:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:24.603:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:24.603:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:24.603:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:24.603:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:24.603:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:25:31.915: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:25:31.915: RIP: build update entries
+*Feb 14 03:25:31.915:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:31.915:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:31.915:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:31.915:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:25:34.067: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:25:34.067:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:34.067:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:34.067:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:34.067:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:34.067:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:34.067:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:34.067:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:34.067:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:25:34.071:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:25:35.411: RIP: received v2 update from 192.168.0.6 on FastEthernet0/
+0
+*Feb 14 03:25:35.411:      192.168.0.12/30 via 0.0.0.0 in 3 hops
+*Feb 14 03:25:35.411:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:35.411:      192.168.0.24/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:35.411:      192.168.0.28/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:25:35.411:      192.168.1.1/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:25:35.411:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:25:35.411:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:25:51.375: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:25:51.375: RIP: build update entries
+*Feb 14 03:25:51.375:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:51.375:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:51.375:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:51.375:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:51.375:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:51.375:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:51.375:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:51.375:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+Atlanta#
+*Feb 14 03:25:51.375:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:51.375:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:51.375:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:25:51.375:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:51.375: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:25:53.167: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (1
+92.168.0.5)
+*Feb 14 03:25:53.167: RIP: build update entries
+*Feb 14 03:25:53.167:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:53.167:   192.168.0.12/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:25:53.167:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:53.167:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:53.167:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:25:53.167:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:25:53.167:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#no debug ip rip
+*Feb 14 03:26:00.003: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:26:00.003:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:26:00.003:      192.168.0.12/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:26:00.003:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:26:00.003:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:26:00.003:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:26:00.003:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:26:00.003:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:26:00.003:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:26:00.003:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#no debug ip rip
+RIP protocol debugging is off
+Atlanta#
+*Feb 14 03:26:00.911: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:26:00.911: RIP: build update entries
+*Feb 14 03:26:00.911:   192.168.0.4/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:26:00.911:   192.168.0.24/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:26:00.911:   192.168.1.1/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:26:00.911:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:24, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:24, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:21, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:24, FastEthernet0/1
+                    [120/2] via 192.168.0.6, 00:00:21, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:25, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:25, FastEthernet0/1
+C       192.168.0.4 is directly connected, FastEthernet0/0
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:22, FastEthernet0/0
+R       192.168.0.28 [120/1] via 192.168.0.22, 00:00:02, FastEthernet0/1
+R       192.168.0.16 [120/2] via 192.168.0.22, 00:00:03, FastEthernet0/1
+                     [120/2] via 192.168.0.6, 00:00:01, FastEthernet0/0
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/1] via 192.168.0.6, 00:00:05, FastEthernet0/0
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:10, FastEthernet0/1
+Atlanta#show ip route rip
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:29, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:29, FastEthernet0/1
+                    [120/3] via 192.168.0.6, 00:00:24, FastEthernet0/0
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:29, FastEthernet0/1
+                    [120/2] via 192.168.0.6, 00:00:24, FastEthernet0/0
+     192.168.0.0/30 is subnetted, 7 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:29, FastEthernet0/1
+R       192.168.0.12 [120/2] via 192.168.0.22, 00:00:29, FastEthernet0/1
+R       192.168.0.24 [120/1] via 192.168.0.6, 00:00:24, FastEthernet0/0
+R       192.168.0.28 [120/1] via 192.168.0.22, 00:00:29, FastEthernet0/1
+R       192.168.0.16 [120/2] via 192.168.0.22, 00:00:29, FastEthernet0/1
+                     [120/2] via 192.168.0.6, 00:00:24, FastEthernet0/0
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/1] via 192.168.0.6, 00:00:25, FastEthernet0/0
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:00, FastEthernet0/1
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.6 4 msec
+    192.168.0.22 0 msec
+    192.168.0.6 0 msec
+  2 192.168.0.30 4 msec
+    192.168.0.26 4 msec *
+Atlanta#
+*Feb 14 03:33:06.319: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+Atlanta#
+*Feb 14 03:33:11.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to up
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+*Feb 14 03:41:24.303: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
+et0/0, changed state to down
+Atlanta#
+Atlanta#
+Atlanta#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Atlanta(config)#interface f0/0
+Atlanta(config-if)#shut
+Atlanta(config-if)#show i[
+*Feb 14 03:43:18.283: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
+to administratively down
+Atlanta(config-if)#show ip int brief
+                     ^
+% Invalid input detected at '^' marker.
+Atlanta(config-if)#^Z
+Atlanta#
+*Feb 14 03:43:31.323: %SYS-5-CONFIG_I: Configured from console by console
+Atlanta#show ip int brief
+Interface                  IP-Address      OK? Method Status                Prot
+ocol
+FastEthernet0/0            192.168.0.5     YES manual administratively down down
+ 
+FastEthernet0/1            192.168.0.21    YES manual up                    up
+ 
+FastEthernet0/0/0          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/1          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/2          unassigned      YES unset  up                    down
+ 
+FastEthernet0/0/3          unassigned      YES unset  up                    down
+ 
+Serial0/1/0                unassigned      YES unset  administratively down down
+ 
+Serial0/1/1                unassigned      YES unset  administratively down down
+ 
+Vlan1                      unassigned      YES unset  up                    down
+ 
+SSLVPN-VIF0                unassigned      NO  unset  up                    up
+ 
+Loopback0                  192.168.2.2     YES manual up                    up
+ 
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#debug ip rip
+RIP protocol debugging is on
+Atlanta#
+*Feb 14 03:47:42.443: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:47:42.443: RIP: build update entries
+*Feb 14 03:47:42.443:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:47:55.479: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:47:55.483:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:47:55.483:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:47:55.483:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:47:55.483:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:47:55.483:      192.168.1.1/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:47:55.483:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:47:55.483:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:47:55.483:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:47:55.483:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:47:58.363: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:47:58.363: RIP: build update entries
+*Feb 14 03:47:58.363:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:47:58.363:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:47:58.363:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:47:58.363:   192.168.0.24/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:47:58.363:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:47:58.363:   192.168.1.1/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:47:58.363:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:47:58.363:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:47:58.363:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:47:58.363:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:47:58.363: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:48:11.587: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:48:11.587: RIP: build update entries
+*Feb 14 03:48:11.587:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:48:22.647: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:48:22.647:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:48:22.651:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:48:22.651:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:48:22.651:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:48:22.651:      192.168.1.1/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:48:22.651:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:48:22.651:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:48:22.651:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:48:22.651:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:48:26.183: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:48:26.183: RIP: build update entries
+*Feb 14 03:48:26.183:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:48:26.183:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:48:26.183:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:48:26.183:   192.168.0.24/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:48:26.183:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:48:26.183:   192.168.1.1/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:48:26.183:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:48:26.183:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:48:26.183:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:48:26.183:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:48:26.183: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:48:39.895: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:48:39.895: RIP: build update entries
+*Feb 14 03:48:39.895:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:48:51.843: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:48:51.843: RIP: build update entries
+*Feb 14 03:48:51.843:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:48:51.843:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:48:51.843:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:48:51.843:   192.168.0.24/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:48:51.843:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:48:51.843:   192.168.1.1/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:48:51.843:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:48:51.843:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+Atlanta#
+*Feb 14 03:48:51.843:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:48:51.843:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:48:51.843: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+*Feb 14 03:48:52.375: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:48:52.375:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:48:52.375:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:48:52.379:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:48:52.379:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:48:52.379:      192.168.1.1/32 via 0.0.0.0 in 3 hops
+Atlanta#
+*Feb 14 03:48:52.379:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:48:52.379:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:48:52.379:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:48:52.379:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:49:07.331: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:49:07.331: RIP: build update entries
+*Feb 14 03:49:07.331:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:49:20.023: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:49:20.023:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:49:20.023:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:20.023:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:20.027:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:49:20.027:      192.168.1.1/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:49:20.027:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:49:20.027:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:20.027:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:49:20.027:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:20.799: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:49:20.799: RIP: build update entries
+*Feb 14 03:49:20.799:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:49:20.799:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:20.799:   192.168.0.20/30 via 0.0.0.0,
+Atlanta#metric 1, tag 0
+*Feb 14 03:49:20.799:   192.168.0.24/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:20.799:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:49:20.799:   192.168.1.1/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:49:20.799:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:49:20.799:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:20.799:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:49:20.799:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:20.799: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:49:35.919: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:49:35.919: RIP: build update entries
+*Feb 14 03:49:35.919:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:49:46.519: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:49:46.519: RIP: build update entries
+*Feb 14 03:49:46.519:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:49:46.519:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:46.519:   192.168.0.20/30 via 0.0.0.0, metric 1, tag 0
+*Feb 14 03:49:46.519:   192.168.0.24/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:46.519:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:49:46.519:   192.168.1.1/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:49:46.519:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:49:46.519:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:46.519:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:49:46.519:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:49:46.519: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+*Feb 14 03:49:46.899: RIP: received v2 update from 192.168.0.22 on FastEtherne
+Atlanta#t0/1
+*Feb 14 03:49:46.899:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:49:46.899:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:46.899:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:46.899:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:49:46.903:      192.168.1.1/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:49:46.903:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:49:46.903:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:49:46.903:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:49:46.903:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+Atlanta#
+*Feb 14 03:50:03.771: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:50:03.771: RIP: build update entries
+*Feb 14 03:50:03.771:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#
+*Feb 14 03:50:14.079: RIP: received v2 update from 192.168.0.22 on FastEthernet0
+/1
+*Feb 14 03:50:14.079:      192.168.0.8/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:50:14.079:      192.168.0.16/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:50:14.079:      192.168.0.24/30 via 0.0.0.0 in 2 hops
+*Feb 14 03:50:14.079:      192.168.0.28/30 via 0.0.0.0 in 1 hops
+*Feb 14 03:50:14.079:      192.168.1.1/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:50:14.083:      192.168.3.3/32 via 0.0.0.0 in 1 hops
+*Feb 14 03:50:14.083:      192.168.4.4/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:50:14.083:      192.168.5.5/32 via 0.0.0.0 in 3 hops
+*Feb 14 03:50:14.083:      192.168.6.6/32 via 0.0.0.0 in 2 hops
+*Feb 14 03:50:14.751: RIP: sending v2 update to 224.0.0.9 via Loopback0 (192.168
+.2.2)
+*Feb 14 03:50:14.751: RIP: build update entries
+*Feb 14 03:50:14.751:   192.168.0.8/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:50:14.751:   192.168.0.16/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:50:14.751:   192.168.0.20/30 via 0.0.0.0,
+Atlanta#metric 1, tag 0
+*Feb 14 03:50:14.751:   192.168.0.24/30 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:50:14.751:   192.168.0.28/30 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:50:14.751:   192.168.1.1/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:50:14.751:   192.168.3.3/32 via 0.0.0.0, metric 2, tag 0
+*Feb 14 03:50:14.751:   192.168.4.4/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:50:14.751:   192.168.5.5/32 via 0.0.0.0, metric 4, tag 0
+*Feb 14 03:50:14.751:   192.168.6.6/32 via 0.0.0.0, metric 3, tag 0
+*Feb 14 03:50:14.751: RIP: ignored v2 packet from 192.168.2.2 (sourced from one
+of our addresses)
+Atlanta#
+*Feb 14 03:50:29.531: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (1
+92.168.0.21)
+*Feb 14 03:50:29.531: RIP: build update entries
+*Feb 14 03:50:29.531:   192.168.2.2/32 via 0.0.0.0, metric 1, tag 0
+Atlanta#no debug ip rip
+RIP protocol debugging is off
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:10, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:10, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:10, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 5 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:10, FastEthernet0/1
+R       192.168.0.24 [120/2] via 192.168.0.22, 00:00:11, FastEthernet0/1
+R       192.168.0.28 [120/1] via 192.168.0.22, 00:00:11, FastEthernet0/1
+R       192.168.0.16 [120/2] via 192.168.0.22, 00:00:11, FastEthernet0/1
+C       192.168.0.20 is directly connected, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/3] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.2.0/32 is subnetted, 1 subnets
+C       192.168.2.2 is directly connected, Loopback0
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:17, FastEthernet0/1
+Atlanta#
+Atlanta#
+Atlanta#show ip route rip
+     192.168.4.0/32 is subnetted, 1 subnets
+R       192.168.4.4 [120/2] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.5.0/32 is subnetted, 1 subnets
+R       192.168.5.5 [120/3] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.6.0/32 is subnetted, 1 subnets
+R       192.168.6.6 [120/2] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.0.0/30 is subnetted, 5 subnets
+R       192.168.0.8 [120/1] via 192.168.0.22, 00:00:14, FastEthernet0/1
+R       192.168.0.24 [120/2] via 192.168.0.22, 00:00:14, FastEthernet0/1
+R       192.168.0.28 [120/1] via 192.168.0.22, 00:00:14, FastEthernet0/1
+R       192.168.0.16 [120/2] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.1.0/32 is subnetted, 1 subnets
+R       192.168.1.1 [120/3] via 192.168.0.22, 00:00:14, FastEthernet0/1
+     192.168.3.0/32 is subnetted, 1 subnets
+R       192.168.3.3 [120/1] via 192.168.0.22, 00:00:14, FastEthernet0/1
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#traceroute 192.168.6.6
+Type escape sequence to abort.
+Tracing the route to 192.168.6.6
+  1 192.168.0.22 4 msec 0 msec 0 msec
+  2 192.168.0.30 8 msec *  8 msec
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
+Atlanta#
