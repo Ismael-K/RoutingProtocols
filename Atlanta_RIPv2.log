@@ -4,11 +4,11 @@ Password:
 % Please answer 'yes' or 'no'.
 Would you like to enter the initial configuration dialog? [yes/no]: no
 Press RETURN to get started!
+
 Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(20)T
 , RELEASE SOFTWARE (fc3)
 Technical Support: http://www.cisco.com/techsupport
 Copyright (c) 1986-2008 by Cisco Systems, Inc.
-Compiled Thu 10-Jul-08 22:00 by prod_rel_team
 Router>enable
 Router#erase startup-config
 Erasing the nvram filesystem will remove all configuration files! Continue? [con
