@@ -4,75 +4,11 @@ Password:
 % Please answer 'yes' or 'no'.
 Would you like to enter the initial configuration dialog? [yes/no]: no
 Press RETURN to get started!
-*Feb 28 01:31:36.691: %ESWMRVL_FLTMG-5-NOTICE: Notice: FPGA Rev 0x71
-*Feb 28 01:31:55.591: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
-d to: Initialized
-*Feb 28 01:31:55.595: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
-d to: Enabled
-*Feb 28 01:31:57.443: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0
-, changed state to up
-*Feb 28 01:31:57.447: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
-o up
-*Feb 28 01:31:57.447: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state t
-o up
-*Feb 28 01:31:57.447: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to do
-wn
-*Feb 28 01:31:57.447: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to do
-wn
-*Feb 28 01:31:57.447: %LINEPROTO-5-UPDOWN: Line protocol on Interface SSLVPN-VIF
-0, changed state to up
-*Feb 28 01:31:57.935: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha
-nged state to down
-*Feb 28 01:31:58.851: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-e
-Router>t0/0, changed state to up
-*Feb 28 01:31:58.851: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/1, changed state to up
-*Feb 28 01:31:58.851: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
-0, changed state to down
-*Feb 28 01:31:58.851: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
-1, changed state to down
-*Feb 28 01:40:49.879: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0, changed state to down
-*Feb 28 01:41:26.103: %SYS-5-RESTART: System restarted --
+
 Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(20)T
 , RELEASE SOFTWARE (fc3)
 Technical Support: http://www.cisco.com/techsupport
 Copyright (c) 1986-2008 by Cisco Systems, Inc.
-Compiled Thu 10-Jul-08 22:00 by prod_rel_team
-*Feb 28 01:41:26.111: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing
- a cold start
-*Feb 28 01:41:26.347: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
-*Feb 28 01:41:26.347: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
-*Feb 28 01:41:26.347: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
-*Feb 28 01:41:26.347: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
-*Feb 28 01:41:26.827: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
-to administratively down
-*Feb 28 01:41:26.827: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state
-to administratively down
-*Feb 28 01:41:26.827: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to a
-dministratively down
-*Feb 28 01:41:26.827: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to a
-dministratively down
-*Feb 28 01:41:27.063: %LINK-3-UPDOWN: Interface FastEthernet0/0/3, changed state
- to up
-*Feb 28 01:41:27.063: %LINK-3-UPDOWN: Interface FastEthernet0/0/2, changed state
- to up
-*Feb 28 01:41:27.083: %LINK-3-UPDOWN: Interface FastEthernet0/0/1, changed state
- to up
-*Feb 28 01:41:27.083: %LINK-3-UPDOWN: Interface FastEthernet0/0/0, changed state
- to up
-*Feb 28 01:41:27.827: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/1, changed state to down
-*Feb 28 01:41:28.283: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/3, changed state to down
-*Feb 28 01:41:28.283: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/2, changed state to down
-*Feb 28 01:41:28.283: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/1, changed state to down
-*Feb 28 01:41:28.283: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/0, changed state to down
-*Feb 28 01:41:29.183: %IP-5-WEBINST_KILL: Terminating DNS process
 Router>
 Router>
 Router>
