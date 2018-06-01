@@ -4,79 +4,11 @@ Password:
 % Please answer 'yes' or 'no'.
 Would you like to enter the initial configuration dialog? [yes/no]: no
 Press RETURN to get started!
-*Feb 14 01:46:58.639: %ESWMRVL_FLTMG-5-NOTICE: Notice: FPGA Rev 0x71
-*Feb 14 01:47:17.527: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
-d to: Initialized
-*Feb 14 01:47:17.531: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State change
-d to: Enabled
-*Feb 14 01:47:19.383: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0
-, changed state to up
-*Feb 14 01:47:19.383: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state t
-o up
-*Feb 14 01:47:19.383: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state t
-o up
-*Feb 14 01:47:19.387: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to do
-wn
-*Feb 14 01:47:19.387: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to do
-wn
-*Feb 14 01:47:19.387: %LINEPROTO-5-UPDOWN: Line protocol on Interface SSLVPN-VIF
-0, changed state to up
-*Feb 14 01:47:19.871: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha
-nged state to down
-*Feb 14 01:47:20.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-e
-Router>t0/0, changed state to up
-*Feb 14 01:47:20.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/1, changed state to up
-*Feb 14 01:47:20.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
-0, changed state to down
-*Feb 14 01:47:20.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/
-1, changed state to down
-*Feb 14 01:57:27.207: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/1, changed state to down
-*Feb 14 01:58:43.475: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/1, changed state to up
-*Feb 14 01:59:23.519: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0, changed state to down
-*Feb 14 02:00:20.795: %IP-5-WEBINST_KILL: Terminating DNS process
-*Feb 14 02:00:21.099: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state
-to administratively down
-*Feb 14 02:00:21.099: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state
-to administratively down
-*Feb 14 02:00:21.103: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to a
-dministratively down
-*Feb 14 02:00:21.103: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to a
-dministratively down
-*Feb 14 02:00:22.099: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/1, changed state to down
-*Feb 14 02:00:28.003: %SYS-5-RESTART: System restarted --
 Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(20)T
 , RELEASE SOFTWARE (fc3)
 Technical Support: http://www.cisco.com/techsupport
 Copyright (c) 1986-2008 by Cisco Systems, Inc.
 Compiled Thu 10-Jul-08 22:00 by prod_rel_team
-*Feb 14 02:00:28.011: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing
- a cold start
-*Feb 14 02:00:28.243: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
-*Feb 14 02:00:28.243: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
-*Feb 14 02:00:28.243: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
-*Feb 14 02:00:28.247: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
-*Feb 14 02:00:28.999: %LINK-3-UPDOWN: Interface FastEthernet0/0/3, changed state
- to up
-*Feb 14 02:00:28.999: %LINK-3-UPDOWN: Interface FastEthernet0/0/2, changed state
- to up
-*Feb 14 02:00:28.999: %LINK-3-UPDOWN: Interface FastEthernet0/0/1, changed state
- to up
-*Feb 14 02:00:29.003: %LINK-3-UPDOWN: Interface FastEthernet0/0/0, changed state
- to up
-*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/3, changed state to down
-*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/2, changed state to down
-*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/1, changed state to down
-*Feb 14 02:00:30.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthern
-et0/0/0, changed state to down
 Router>enable
 Router#erase startup-config
 Erasing the nvram filesystem will remove all configuration files! Continue? [con
