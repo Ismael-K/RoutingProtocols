@@ -75,3 +75,7 @@ Implementation of the RIPv2, OSPF, BGP, EIGRP routing protocols from the Cisco C
 </table>
 
 
+VLANsandVoip.pkt is a Packet Tracer file to simulate VoIP functionality on a network.  Router0 in the diagram below supports a trunk port to carry traffic for VLANs 1, 50, 99, 150.  Router0 is also configured as a DHCP server to provide network parameters to the VoIP phones.  
+
+<p align="center">
+<img width="451" alt="vlansandvoip" src="https://user-images.githubusercontent.com/17348315/41727595-b54f442e-7542-11e8-86b5-90c96a0acf31.PNG">
